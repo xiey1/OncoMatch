@@ -45,7 +45,7 @@ After annotating the unlabeled abstracts, here is the overall cancer type inform
 ## Step 2 -- Word Embedding
 Each abstract will be converted to a numeric vector that represents its semantic meanings. 
 ### Validation
-<br>To evaluate the word embedding performance, article titles are also converted to numeric vectors. The consine similarity scores between each pair of abstract and title are calculated and ranked. The better embedding performance suggests that the consine similarity score between each abstract and its corresponding title should have the highest ranking (percentile close to 0).
+To evaluate the word embedding performance, article titles are also converted to numeric vectors. The consine similarity scores between each pair of abstract and title are calculated and ranked. The better embedding performance suggests that the consine similarity score between each abstract and its corresponding title should have the highest ranking (percentile close to 0).
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/validation.png' width=200px>
 
@@ -54,4 +54,9 @@ Each abstract will be converted to a numeric vector that represents its semantic
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Word_embedding.png' width=800px>
 
+<br>To better visualize the embedding results from BioBERT, here I generated TSNE plots of the embedded vectors from BioBERT colored by cancer types or gene mutation information.
 
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/BioBERT_TSNE.png' width=800px>
+
+### Conclusion
+**BioBERT** significantly outperforms **Word2Vec** and **LDA** models and I chose **BioBERT** to embed abstracts as well as the free-form text input from users.
