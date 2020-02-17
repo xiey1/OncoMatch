@@ -4,8 +4,8 @@ http://52.90.79.42
 
 <br>This project has 8 sections with code and detailed explanation in 8 jupyter notebooks.
 
-* Part I: Web_scraping
-Obtaining data from Cancer.Net, Pubmed, scopus, clinicaltrials.gov, with methods including web scraping, API and Biopython.
+* **Part I: Web_scraping**
+<br>Obtaining data from Cancer.Net, Pubmed, scopus, clinicaltrials.gov, with methods including web scraping, API and Biopython.
 * Part II: Abstract_preprocessing
 * Part III: Abstract_cancertype_annotation_LSTM
 * Part IV: Abstract_keywords
