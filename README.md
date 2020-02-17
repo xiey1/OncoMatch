@@ -52,3 +52,6 @@ Each abstract will be converted to a numeric vector that represents its semantic
 ### Embedding results
 <br>Here I tested **Word2Vec**, **Latent Dirichlet Allocation (LAD)** and **BioBERT** three models. The embedding performance is plotted as the distribution of cosine similarity score rankings between each abstract and its corresponding title (better performance corresponds to higher ranking and percentile closer to 0).
 
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Word_embedding.png' width=200px>
+
+
