@@ -24,10 +24,12 @@ Here is a summary of some statistics of the data for this project:
 Around 83.4% of abstracts are annotated with cancer type by searching for cancer-related information and the remaining 16.6% are unlabeled.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
+### Model: LSTM
 To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=600px>
 <br>For each cancer type, an LSTM model is trained separately as a binary classification problem. **Class_0** suggests the abstract doesn't contain information about the specific cancer type and **Class_1** suggests that the abstract contains information about this cancer type.
 
+### Classification results
 <br>Here is the overall training performance for the top 29 most frequent cancer types
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/dl_summary.png' width=400px>
@@ -35,3 +37,7 @@ To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 Here is the detailed training and prediction results for Breast Cancer:
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Breast_Cancer_LSTM.png' width=800px>
+
+After annotating the unlabeled abstracts, here is the overall cancer type information for the abstracts:
+
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/LSTM_prediction.png' width=600px>
