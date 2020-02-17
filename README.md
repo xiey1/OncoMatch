@@ -12,6 +12,7 @@
 
 # Approach:
 ## Step 1 -- Annotate abstract by cancer type
+Around 83.4% of abstracts have clear cancer type-related information and the remaining 16.6% are unlabeled.
 <img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
 
