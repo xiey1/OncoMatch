@@ -6,7 +6,8 @@
 
 # Data Source:
 1. **Cancer.Net**: https://www.cancer.net/
-2. **
+2. **Pubmed**: https://www.ncbi.nlm.nih.gov/pubmed/
+3. **ClinicalTrial**: https://clinicaltrials.gov/
 
 # Approach:
 ## Step 1 -- Annotate abstract by cancer type
