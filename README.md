@@ -34,4 +34,4 @@ To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 
 Here is the detailed training and prediction results for Breast Cancer:
 
-<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Breast_Cancer_LSTM.png' width=400px>
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Breast_Cancer_LSTM.png' width=600px>
