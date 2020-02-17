@@ -31,3 +31,7 @@ To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 <br>Here is the overall training performance for the top 29 most frequent cancer types
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/dl_summary.png' width=400px>
+
+Here is the detailed training and prediction results for Breast Cancer:
+
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Breast_Cancer_LSTM.png' width=400px>
