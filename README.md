@@ -17,4 +17,4 @@ Around 83.4% of abstracts are annotated with cancer type by searching for cancer
 
 To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=600px>
-<br>For each cancer type, an LSTM model is trained separately as a binary classification problem. **Class_0** suggests the abstract contains information about the specific cancer type and **Class_1** suggests that the abstract doesn't contain information about this cancer type.
+<br>For each cancer type, an LSTM model is trained separately as a binary classification problem. **Class_0** suggests the abstract doesn't contain information about the specific cancer type and **Class_1** suggests that the abstract contains information about this cancer type.
