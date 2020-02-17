@@ -14,7 +14,7 @@ http://52.90.79.42
 <img src='https://github.com/xiey1/OncoMatch/blob/master/images/web_scraping.png' width=600px>
 
 Here is a summary of some statistics of the data for this project:
-| Information type  | Number of data |
+| Data type  | Number of data |
 | ------------- | ------------- |
 | Abstracts  | 50930  |
 | Oncologists  |  1470 |
