@@ -12,6 +12,6 @@
 
 # Approach:
 ## Step 1 -- Annotate abstract by cancer type
-<img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=200px>
+<img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
 
