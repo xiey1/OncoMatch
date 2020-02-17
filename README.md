@@ -10,6 +10,15 @@
 3. **ClinicalTrial**: https://clinicaltrials.gov/
 <img src='https://github.com/xiey1/OncoMatch/blob/master/images/web_scraping.png' width=600px>
 
+Here is a summary of some statistics of the data for this project:
+| Information type  | Number of data |
+| ------------- | ------------- |
+| Abstracts  | 50930  |
+| Oncologists  |  1470 |
+| Cancer types  |  55 |
+| Genes  |  206 |
+| Cancer Centers  |  48 |
+
 # Approach:
 ## Step 1 -- Annotate abstract by cancer type
 Around 83.4% of abstracts are annotated with cancer type by searching for cancer-related information and the remaining 16.6% are unlabeled.
@@ -18,3 +27,6 @@ Around 83.4% of abstracts are annotated with cancer type by searching for cancer
 To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=600px>
 <br>For each cancer type, an LSTM model is trained separately as a binary classification problem. **Class_0** suggests the abstract doesn't contain information about the specific cancer type and **Class_1** suggests that the abstract contains information about this cancer type.
+
+<br>Here is the overall training performance for the top 29 most frequent cancer types
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/dl_summary.png' width=300px>
