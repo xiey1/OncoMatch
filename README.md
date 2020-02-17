@@ -23,7 +23,7 @@ Here is a summary of some statistics of the data for this project:
 | Cancer Centers  |  48 |
 
 # Approach:
-## Step 1 -- Annotate abstract by cancer type
+## Step 1 -- Annotate abstracts by cancer type
 Around 83.4% of abstracts are annotated with cancer type by searching for cancer-related information and the remaining 16.6% are unlabeled.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
