@@ -4,6 +4,8 @@
 # Project Aim:
 ### Match the needs of patients to abstracts published by oncologists based on similarity in semantic meanings which are encoded by word embedding.
 
+<img src='https://github.com/xiey1/OncoMatch/blob/master/images/OncoMatch_model.png' width=600px>
+
 # Data Source:
 1. **Cancer.Net**: https://www.cancer.net/
 2. **Pubmed**: https://www.ncbi.nlm.nih.gov/pubmed/
@@ -54,9 +56,12 @@ To evaluate the word embedding performance, article titles are also converted to
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Word_embedding.png' width=800px>
 
-<br>To better visualize the embedding results from BioBERT, here I generated TSNE plots of the embedded vectors from BioBERT colored by cancer types or gene mutation information.
+<br>To better visualize the embedding results from BioBERT, here I generated TSNE plots of the embedded vectors of abstracts converted by BioBERT colored based on cancer types or gene mutation information.
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/BioBERT_TSNE.png' width=800px>
 
 ### Conclusion
 **BioBERT** significantly outperforms **Word2Vec** and **LDA** models and I chose **BioBERT** to embed abstracts as well as the free-form text input from users.
+
+# Application
+
