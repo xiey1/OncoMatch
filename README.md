@@ -24,7 +24,7 @@ Here is a summary of some statistics of the data for this project:
 Around 83.4% of abstracts are annotated with cancer type by searching for cancer-related information and the remaining 16.6% are unlabeled.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
-### Model: LSTM
+### Model -- LSTM
 To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built.
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=600px>
 <br>For each cancer type, an LSTM model is trained separately as a binary classification problem. **Class_0** suggests the abstract doesn't contain information about the specific cancer type and **Class_1** suggests that the abstract contains information about this cancer type.
@@ -41,3 +41,12 @@ Here is the detailed training and prediction results for Breast Cancer:
 After annotating the unlabeled abstracts, here is the overall cancer type information for the abstracts:
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/LSTM_prediction.png' width=600px>
+
+## Step 2 -- Word Embedding
+Each abstract will be converted to a numeric vector that represents its semantic meanings. 
+<br>To evaluate the word embedding performance, article titles are also converted to numeric vectors. The consine similarity scores between each pair of abstract and title are calculated and ranked. The better embedding performance suggests that the consine similarity score between each abstract and its corresponding title should have the highest ranking (percentile close to 0).
+
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/validation.png' width=400px>
+
+<br>Here I tested **Word2Vec**, **Latent Dirichlet Allocation (LAD)** and **BioBERT** three models. The embedding performance is plotted as the distribution of cosine similarity score rankings between each abstract and its corresponding title (better performance corresponds to higher ranking and percentile closer to 0).
+
