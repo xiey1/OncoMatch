@@ -73,6 +73,8 @@ For example, a user is looking for oncologists specialized in melanoma treatment
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/OncoMatch_webpage2.png' width=800px>
 
+<br>OncoMatch will provide information about the oncologist's affiliation, location, a list of clinical trials and a list of most relevant publications based on the search record. OncoMatch will also give a list of top ranked oncoligsts that users can take a lookt at.
+
 For visualization, the localization of abstracts about melanoma, abstracts published by Dr. Jedd D. Wolchok about melanoma and the text input are plotted in TSNE plot.
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/BioBERT_TSNE3.png' width=800px>
