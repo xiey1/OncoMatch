@@ -6,13 +6,20 @@ http://52.90.79.42
 
 * **Part I: Web_scraping**
 <br>Obtaining data from Cancer.Net, Pubmed, scopus, clinicaltrials.gov, with methods including web scraping, API and Biopython.
-* Part II: Abstract_preprocessing
-* Part III: Abstract_cancertype_annotation_LSTM
-* Part IV: Abstract_keywords
-* Part V: Word2Vec
-* Part VI: LDA
-* Part VII: BioBERT
-* Part VIII: Webapp
+* **Part II: Abstract_preprocessing**
+<br>Obtaining cancer type information and gene information from abstracts. The aim is to annotate each abstract by cancer type and gene which are two critical features for the doctor recommendation system.
+* **Part III: Abstract_cancertype_annotation_LSTM**
+<br>Building LSTM models and training on the abstracts labeled with cancer type information. The aim is to predict cancer type for the abstracts with no cancer type information.
+* **Part IV: Abstract_keywords**
+<br>This notebook first generates dataframes and dictionaries to set up connections among oncologists, cancer types and abstract ids (pmid). Secondly, it visualizes keywords in abstracts for each cancer type.
+* **Part V: Word2Vec**
+<br>Training Word2Vec model to embed abstracts
+* **Part VI: LDA**
+<br>Training Latent Dirichlet Allocation (LDA) to embed abstracts.
+* **Part VII: BioBERT**
+<br>Using pre-trained weights from BioBERT to embed abstracts.
+* **Part VIII: Webapp**
+<br>The functions and steps used in the final webapp including both BioBERT and LDA methods.
 
 # Project Aim:
 ### Match the needs of patients to abstracts published by oncologists based on similarity in semantic meanings which are encoded by word embedding.
