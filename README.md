@@ -37,6 +37,8 @@ To annotate the unlabeled 16.6% abstracts, an **LSTM** model is built and traine
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/dl_summary.png' width=400px>
 
+<br>Since for each cancer type, the dataset is imbalanced (more Class_0 than Class_1), F1 score is used as the evaluation metric and the model with the highest F1 score is selected.
+
 Here is the detailed training and prediction results for Breast Cancer:
 
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Breast_Cancer_LSTM.png' width=800px>
