@@ -46,7 +46,7 @@ After annotating the unlabeled abstracts, here is the overall cancer type inform
 Each abstract will be converted to a numeric vector that represents its semantic meanings. 
 <br>To evaluate the word embedding performance, article titles are also converted to numeric vectors. The consine similarity scores between each pair of abstract and title are calculated and ranked. The better embedding performance suggests that the consine similarity score between each abstract and its corresponding title should have the highest ranking (percentile close to 0).
 
-<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/validation.png' width=400px>
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/validation.png' width=300px>
 
 <br>Here I tested **Word2Vec**, **Latent Dirichlet Allocation (LAD)** and **BioBERT** three models. The embedding performance is plotted as the distribution of cosine similarity score rankings between each abstract and its corresponding title (better performance corresponds to higher ranking and percentile closer to 0).
 
