@@ -16,4 +16,4 @@ Around 83.4% of abstracts are annotated with cancer type by searching for cancer
 <br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/abstract_annotation_piechart.png' width=300px>
 
 To annotate the unlabeled 16.6% abstracts, an LSTM model is built.
-<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=300px>
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/lstm_model.png' width=600px>
