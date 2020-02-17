@@ -68,9 +68,9 @@ After annotating the unlabeled abstracts, here is the overall cancer type inform
 
 The keywords for each cancer type are visualized by word frequency and WordCloud.
 
-<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Cancertype_keywords.png' width=600px>
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/Cancertype_keywords.png' width=800px>
 
-<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/WordCloud.png' width=600px>
+<br><img src='https://github.com/xiey1/OncoMatch/blob/master/images/WordCloud.png' width=800px>
 
 
 ## Step 2 -- Word Embedding
